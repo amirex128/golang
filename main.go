@@ -5,5 +5,5 @@ func main() {
 }
 
 func sayHello(name string) {
-	println("Hello, world.", name)
+	println("Hello ", name)
 }
