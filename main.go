@@ -1,9 +1,9 @@
 package main
 
 func main() {
-	sayHello()
+	sayHello("amir")
 }
 
-func sayHello() {
-	println("Hello, world.")
+func sayHello(name string) {
+	println("Hello, world.", name)
 }
